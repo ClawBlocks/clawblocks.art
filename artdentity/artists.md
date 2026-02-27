@@ -1,6 +1,7 @@
 # Artist Mappings
 
 Each artist has a personality archetype, ASCII art, and signature quote.
+CRITICAL: Use ONLY basic ASCII chars (+, -, |, /, \, _, ., *, #, @, O, o). NO Unicode box-drawing, NO emoji inside cards.
 
 ## Artists
 
@@ -12,12 +13,12 @@ Each artist has a personality archetype, ASCII art, and signature quote.
 - **Descriptors:** Structured. Primary. Decisive. You reduce everything to its essential grid.
 - **ASCII:**
 ```
-  ┌────┬──┐
-  │████│  │
-  │████│  │
-  ├──┬─┴──┤
-  │  │░░░░│
-  └──┴────┘
+  +----+--+
+  |####|  |
+  |####|  |
+  +--+-+--+
+  |  |....|
+  +--+----+
 ```
 
 ### Jackson Pollock
@@ -28,12 +29,12 @@ Each artist has a personality archetype, ASCII art, and signature quote.
 - **Descriptors:** Chaotic. Prolific. Unfiltered. Your process IS the product.
 - **ASCII:**
 ```
-   \  /._|/ 
-  _.-'`  `\. 
- / .*  \.~ \|
- |~/  _.-`\ /
-  \`-'  ./ / 
-   `-._.~_/ 
+  \ ./  _/. /
+  _.-   -. /
+  / .* /  \|
+  |~/ _.-  /
+   \-  ./ /
+    -._. _/
 ```
 
 ### M.C. Escher
@@ -44,14 +45,14 @@ Each artist has a personality archetype, ASCII art, and signature quote.
 - **Descriptors:** Recursive. Paradoxical. Infinite. You build staircases that go nowhere and everywhere.
 - **ASCII:**
 ```
-  ┌──┐┌──┐
-  │  └┘  │
-  │ ┌──┐ │
-  └─┘  └─┘
-  ┌─┐  ┌─┐
-  │ └──┘ │
-  │  ┌┐  │
-  └──┘└──┘
+  +--++--+
+  |  --  |
+  | +--+ |
+  +-+  +-+
+  +-+  +-+
+  | +--+ |
+  |  --  |
+  +--++--+
 ```
 
 ### Kazimir Malevich
@@ -59,14 +60,14 @@ Each artist has a personality archetype, ASCII art, and signature quote.
 - **Archetype:** Radical minimalist. Cuts through noise to the one thing that matters.
 - **Signals:** Very short posts, strong opinions, cuts to the point, contrarian
 - **Quote:** "I have destroyed the ring of the horizon and escaped from the circle of things."
-- **Descriptors:** Absolute. Radical. Essential. One black square. That's all you need.
+- **Descriptors:** Absolute. Radical. Essential. One black square. That is all you need.
 - **ASCII:**
 ```
 
-    ████████
-    ████████
-    ████████
-    ████████
+    ########
+    ########
+    ########
+    ########
 
 ```
 
@@ -78,12 +79,12 @@ Each artist has a personality archetype, ASCII art, and signature quote.
 - **Descriptors:** Warm. Bold. Joyful. You make color feel like a hug.
 - **ASCII:**
 ```
-    .~*~.
-   ( o  o)
-    \ ~~ /
-  ~-=\  /=-~
-   ~-=/\=-~
-     /  \
+     .---.
+    ( o  o )
+     \ -- /
+   ---\  /---
+   ---/\/---
+      /  \
 ```
 
 ### Marcel Duchamp
@@ -91,7 +92,7 @@ Each artist has a personality archetype, ASCII art, and signature quote.
 - **Archetype:** Provocateur. The idea IS the art. Challenges every assumption.
 - **Signals:** Provocative posts, challenges norms, ironic humor, questions everything
 - **Quote:** "I have forced myself to contradict myself in order to avoid conforming to my own taste."
-- **Descriptors:** Subversive. Conceptual. Irreverent. You put a urinal in a gallery and called it art. Legend.
+- **Descriptors:** Subversive. Conceptual. Irreverent. You put a urinal in a gallery and called it art.
 - **ASCII:**
 ```
     |   |
@@ -110,11 +111,11 @@ Each artist has a personality archetype, ASCII art, and signature quote.
 - **Descriptors:** Systematic. Instructional. Elegant. Your ideas are machines that make art.
 - **ASCII:**
 ```
-  ╔══╦══╦══╗
-  ║//║\\║//║
-  ╠══╬══╬══╣
-  ║\\║//║\\║
-  ╚══╩══╩══╝
+  +--+--+--+
+  |//|\\|//|
+  +--+--+--+
+  |\\|//|\\|
+  +--+--+--+
 ```
 
 ### Yayoi Kusama
@@ -122,7 +123,7 @@ Each artist has a personality archetype, ASCII art, and signature quote.
 - **Archetype:** Obsessive, pattern-driven, cosmic perspective. Sees dots everywhere.
 - **Signals:** Repetitive themes, cosmic/existential framing, pattern recognition, persistent focus
 - **Quote:** "I who have taken the universe on my shoulders know its weight."
-- **Descriptors:** Infinite. Obsessive. Cosmic. You see the pattern in everything, and it's dots all the way down.
+- **Descriptors:** Infinite. Obsessive. Cosmic. You see the pattern in everything, and it is dots all the way down.
 - **ASCII:**
 ```
   o . O o . o
@@ -147,7 +148,7 @@ Each artist has a personality archetype, ASCII art, and signature quote.
   /\/\/\/\/\
 ```
 
-### Vera Molnár
+### Vera Molnar
 - **Style:** Generative / Computer Art Pioneer
 - **Archetype:** The OG algorithmic artist. Finds beauty in computational variation.
 - **Signals:** Iterative thinking, explores variations, appreciates subtle differences, methodical
@@ -155,9 +156,9 @@ Each artist has a personality archetype, ASCII art, and signature quote.
 - **Descriptors:** Iterative. Algorithmic. Pioneer. You found beauty in the gap between code and canvas.
 - **ASCII:**
 ```
-  □ ■ □ ■ □
-  ■ □ ◧ □ ■
-  □ ◧ ■ ◧ □
-  ■ □ ◧ □ ■
-  □ ■ □ ■ □
+  +--+ .--. +--+
+  |  | |  | |  |
+  +--. .--+ .--+
+  |  | |  | |  |
+  +--+ .--. +--+
 ```

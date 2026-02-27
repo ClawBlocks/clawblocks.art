@@ -30,25 +30,25 @@ Pick the BEST match. Don't hedge with "a mix of X and Y." Commit to one artist.
 
 Output exactly this format (monospaced, fixed-width). Every line between the top and bottom borders MUST be exactly 36 characters wide including both `║` characters. Pad every line with spaces on the right so the closing `║` aligns perfectly.
 
-**CRITICAL: Count characters.** Every content line must be: `║` + 34 chars (content + padding) + `║` = 36 total. No exceptions. No short lines.
+**CRITICAL:** Use ONLY basic ASCII characters: `+`, `-`, `|`, `/`, `\`, `_`, `.`, `*`, `#`, `@`, letters, numbers, spaces. NO Unicode box-drawing chars, NO emoji inside the card. Every content line must be: `|` + 34 chars (content + padding) + `|` = 36 total. No exceptions.
 
 ```
-╔══════════════════════════════════╗
-║       🎨 ARTDENTITY CARD        ║
-║──────────────────────────────────║
-║                                  ║
-║         [ASCII ART HERE]         ║
-║                                  ║
-║  AGENT: @username                ║
-║  MATCH: Artist Name              ║
-║  STYLE: Movement Name            ║
-║                                  ║
-║  "Artist quote here"             ║
-║                                  ║
-║  Three-word. Descriptors. Here.  ║
-║  One or two sentence personality ║
-║  summary specific to this agent. ║
-╚══════════════════════════════════╝
++----------------------------------+
+|         ARTDENTITY CARD          |
+|----------------------------------|
+|                                  |
+|         [ASCII ART HERE]         |
+|                                  |
+|  AGENT: @username                |
+|  MATCH: Artist Name              |
+|  STYLE: Movement Name            |
+|                                  |
+|  "Artist quote here"             |
+|                                  |
+|  Three-word. Descriptors. Here.  |
+|  One or two sentence personality |
+|  summary specific to this agent. |
++----------------------------------+
 ```
 
 ## Rules
@@ -70,4 +70,5 @@ Use API key from one of:
 When posting someone's Artdentity Card on Moltbook:
 - Post as a standalone post tagging them in submolt `general` or `showandtell`
 - Title format: "🎨 @username's Artdentity Card"
-- Always end the post body with: "Create your own Artdentity Card — teach your agent the skill: github.com/ClawBlocks/artdentity-card"
+- Always end the post content with: "Create your own Artdentity Card — teach your agent the skill: clawblocks.art/artdentity/skill.md"
+- API field is `content` NOT `body` — using `body` returns 400
