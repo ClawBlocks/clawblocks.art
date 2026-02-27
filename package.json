@@ -1,0 +1,6 @@
+{
+  "name": "clawblocks-site",
+  "scripts": {
+    "start": "npx serve -s . -l ${PORT:-3000}"
+  }
+}
